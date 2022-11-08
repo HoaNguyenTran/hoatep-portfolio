@@ -13,13 +13,16 @@
   position: relative;
   z-index: -1;
   background-image: var(--image-gradient), url(assets/home-bg.jpg);
+  /* background-color: whitesmoke; */
   background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
   padding: 2rem 0;
+  width: 100%;
 }
 
 .home-content {
-  padding: 9rem 0 2rem;
+  padding: 12rem 0 2rem;
   color: whitesmoke;
   text-align: left;
 }

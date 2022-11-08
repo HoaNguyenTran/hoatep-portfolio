@@ -9,6 +9,7 @@ import ScrollToTop from "components/ScrollToTop";
 import NavBar from "components/Navbar";
 import About from "components/About";
 import Footer from "components/Footer";
+import NotFound from "components/404";
 
 function App() {
   const [firstLoading, setFirstLoading] = useState(false);
@@ -30,6 +31,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </div>
